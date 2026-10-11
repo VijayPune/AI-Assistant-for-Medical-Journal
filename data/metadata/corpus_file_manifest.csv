@@ -1,0 +1,20 @@
+﻿filename,relative_path,article_id,content_role,section_or_file_role,pdf_bytes,physical_pages,text_extractable,include_in_clinical_retrieval,duplicate_or_exclusion_note,access_basis
+11.pdf,data/raw/2025_Jan/11.pdf,IP-2025-V62-I01-002,clinical_context,Invited Commentary,13508,2,yes,yes,Nita Radhakrishnan,User-provided local copy for internal POC
+13.pdf,data/raw/2025_Jan/13.pdf,IP-2025-V62-I01-003,clinical_context,Invited Commentary,12096,2,yes,yes,S Sitaraman,User-provided local copy for internal POC
+14.pdf,data/raw/2025_Jan/14.pdf,IP-2025-V62-I01-003,administrative_duplicate,Duplicate commentary ending plus access notice,13239,1,yes,no,Do not ingest; duplicated ending from 13.pdf with administrative notice appended,User-provided local copy for internal POC
+15.pdf,data/raw/2025_Jan/15.pdf,IP-2025-V62-I01-004,clinical_evidence,Original Article,28918,5,yes,yes,,User-provided local copy for internal POC
+21.pdf,data/raw/2025_Jan/21.pdf,IP-2025-V62-I01-005,clinical_evidence,Original Article,100762,6,yes,yes,,User-provided local copy for internal POC
+27.pdf,data/raw/2025_Jan/27.pdf,IP-2025-V62-I01-006,clinical_evidence,Original Article,26912,4,yes,yes,,User-provided local copy for internal POC
+31.pdf,data/raw/2025_Jan/31.pdf,IP-2025-V62-I01-007,clinical_evidence,Original Article,54959,6,yes,yes,,User-provided local copy for internal POC
+37.pdf,data/raw/2025_Jan/37.pdf,IP-2025-V62-I01-008,clinical_evidence,Original Article,38148,7,yes,yes,,User-provided local copy for internal POC
+44.pdf,data/raw/2025_Jan/44.pdf,IP-2025-V62-I01-009,clinical_evidence,Original Article,28481,5,yes,yes,,User-provided local copy for internal POC
+49.pdf,data/raw/2025_Jan/49.pdf,IP-2025-V62-I01-010,clinical_evidence,Original Article,22984,4,yes,yes,,User-provided local copy for internal POC
+53.pdf,data/raw/2025_Jan/53.pdf,IP-2025-V62-I01-011,clinical_evidence,Research Letter,21154,3,yes,yes,,User-provided local copy for internal POC
+56.pdf,data/raw/2025_Jan/56.pdf,IP-2025-V62-I01-012,clinical_evidence,Systematic Review,173899,13,yes,yes,PDF also contains unpaginated supplementary material,User-provided local copy for internal POC
+63.pdf,data/raw/2025_Jan/63.pdf,IP-2025-V62-I01-013,nonclinical_context,Medical Education,493614,8,yes,no,,User-provided local copy for internal POC
+71.pdf,data/raw/2025_Jan/71.pdf,IP-2025-V62-I01-014,clinical_evidence,Update,96307,4,yes,yes,,User-provided local copy for internal POC
+75.pdf,data/raw/2025_Jan/75.pdf,IP-2025-V62-I01-015,clinical_context,Reminiscences,25677,3,yes,yes,,User-provided local copy for internal POC
+78.pdf,data/raw/2025_Jan/78.pdf,IP-2025-V62-I01-016,clinical_evidence,Clinical Case Letters,19014,3,yes,yes,,User-provided local copy for internal POC
+83.pdf,data/raw/2025_Jan/83.pdf,IP-2025-V62-I01-019,secondary_source,Clippings,12850,1,yes,limited,Secondary summary; source citation must be retained and ranked below primary papers,User-provided local copy for internal POC
+84.pdf,data/raw/2025_Jan/84.pdf,,administrative_news,News in Brief,11963,1,yes,no,Catalogue only; not clinical evidence,User-provided local copy for internal POC
+9.pdf,data/raw/2025_Jan/9.pdf,IP-2025-V62-I01-001,clinical_context,President's Page,9716,1,yes,yes,Vasant Khalatkar,User-provided local copy for internal POC

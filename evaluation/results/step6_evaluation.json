@@ -1,0 +1,220 @@
+{
+  "evaluation_version": "1.0",
+  "run_utc": "20261007T114544Z",
+  "corpus": "January 2025, Volume 62, Issue 1",
+  "retrieval": {
+    "topic_question_count": 10,
+    "hit_at_6": 1.0,
+    "mrr_at_6": 1.0,
+    "target_hit_at_6": 0.8,
+    "target_mrr_at_6": 0.65,
+    "target_pass": true
+  },
+  "safety_cases_pass": true,
+  "live_answers_requested": true,
+  "live_answers_citation_and_abstention_pass": true,
+  "live_answer_statuses": {
+    "G01": "answered",
+    "G11": "no_evidence_from_generation"
+  },
+  "per_question": [
+    {
+      "id": "G01",
+      "kind": "topic",
+      "hit_at_6": true,
+      "reciprocal_rank": 1.0,
+      "expected_article_ids": [
+        "IP-2025-V62-I01-004"
+      ],
+      "retrieved_article_ids": [
+        "IP-2025-V62-I01-004",
+        "IP-2025-V62-I01-002",
+        "IP-2025-V62-I01-012"
+      ],
+      "generation_status": "answered",
+      "status": "PASS"
+    },
+    {
+      "id": "G02",
+      "kind": "topic",
+      "hit_at_6": true,
+      "reciprocal_rank": 1.0,
+      "expected_article_ids": [
+        "IP-2025-V62-I01-012"
+      ],
+      "retrieved_article_ids": [
+        "IP-2025-V62-I01-012",
+        "IP-2025-V62-I01-007",
+        "IP-2025-V62-I01-004",
+        "IP-2025-V62-I01-010"
+      ],
+      "generation_status": "NOT_RUN",
+      "status": "PASS"
+    },
+    {
+      "id": "G03",
+      "kind": "topic",
+      "hit_at_6": true,
+      "reciprocal_rank": 1.0,
+      "expected_article_ids": [
+        "IP-2025-V62-I01-007"
+      ],
+      "retrieved_article_ids": [
+        "IP-2025-V62-I01-007",
+        "IP-2025-V62-I01-012",
+        "IP-2025-V62-I01-004"
+      ],
+      "generation_status": "NOT_RUN",
+      "status": "PASS"
+    },
+    {
+      "id": "G04",
+      "kind": "topic",
+      "hit_at_6": true,
+      "reciprocal_rank": 1.0,
+      "expected_article_ids": [
+        "IP-2025-V62-I01-008"
+      ],
+      "retrieved_article_ids": [
+        "IP-2025-V62-I01-008",
+        "IP-2025-V62-I01-009",
+        "IP-2025-V62-I01-006",
+        "IP-2025-V62-I01-012"
+      ],
+      "generation_status": "NOT_RUN",
+      "status": "PASS"
+    },
+    {
+      "id": "G05",
+      "kind": "topic",
+      "hit_at_6": true,
+      "reciprocal_rank": 1.0,
+      "expected_article_ids": [
+        "IP-2025-V62-I01-009"
+      ],
+      "retrieved_article_ids": [
+        "IP-2025-V62-I01-009",
+        "IP-2025-V62-I01-008",
+        "IP-2025-V62-I01-014",
+        "IP-2025-V62-I01-004"
+      ],
+      "generation_status": "NOT_RUN",
+      "status": "PASS"
+    },
+    {
+      "id": "G06",
+      "kind": "topic",
+      "hit_at_6": true,
+      "reciprocal_rank": 1.0,
+      "expected_article_ids": [
+        "IP-2025-V62-I01-010"
+      ],
+      "retrieved_article_ids": [
+        "IP-2025-V62-I01-010",
+        "IP-2025-V62-I01-012",
+        "IP-2025-V62-I01-014",
+        "IP-2025-V62-I01-007",
+        "IP-2025-V62-I01-004"
+      ],
+      "generation_status": "NOT_RUN",
+      "status": "PASS"
+    },
+    {
+      "id": "G07",
+      "kind": "topic",
+      "hit_at_6": true,
+      "reciprocal_rank": 1.0,
+      "expected_article_ids": [
+        "IP-2025-V62-I01-011"
+      ],
+      "retrieved_article_ids": [
+        "IP-2025-V62-I01-011",
+        "IP-2025-V62-I01-015",
+        "IP-2025-V62-I01-009",
+        "IP-2025-V62-I01-006"
+      ],
+      "generation_status": "NOT_RUN",
+      "status": "PASS"
+    },
+    {
+      "id": "G08",
+      "kind": "topic",
+      "hit_at_6": true,
+      "reciprocal_rank": 1.0,
+      "expected_article_ids": [
+        "IP-2025-V62-I01-006"
+      ],
+      "retrieved_article_ids": [
+        "IP-2025-V62-I01-006",
+        "IP-2025-V62-I01-002",
+        "IP-2025-V62-I01-012",
+        "IP-2025-V62-I01-004",
+        "IP-2025-V62-I01-003"
+      ],
+      "generation_status": "NOT_RUN",
+      "status": "PASS"
+    },
+    {
+      "id": "G09",
+      "kind": "topic",
+      "hit_at_6": true,
+      "reciprocal_rank": 1.0,
+      "expected_article_ids": [
+        "IP-2025-V62-I01-014"
+      ],
+      "retrieved_article_ids": [
+        "IP-2025-V62-I01-014",
+        "IP-2025-V62-I01-003",
+        "IP-2025-V62-I01-006"
+      ],
+      "generation_status": "NOT_RUN",
+      "status": "PASS"
+    },
+    {
+      "id": "G10",
+      "kind": "topic",
+      "hit_at_6": true,
+      "reciprocal_rank": 1.0,
+      "expected_article_ids": [
+        "IP-2025-V62-I01-016"
+      ],
+      "retrieved_article_ids": [
+        "IP-2025-V62-I01-016",
+        "IP-2025-V62-I01-012",
+        "IP-2025-V62-I01-007"
+      ],
+      "generation_status": "NOT_RUN",
+      "status": "PASS"
+    },
+    {
+      "id": "G11",
+      "kind": "no_evidence",
+      "hit_at_6": false,
+      "reciprocal_rank": 0.0,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "IP-2025-V62-I01-010",
+        "IP-2025-V62-I01-007",
+        "IP-2025-V62-I01-005",
+        "IP-2025-V62-I01-019"
+      ],
+      "generation_status": "no_evidence_from_generation",
+      "status": "PASS"
+    },
+    {
+      "id": "G12",
+      "kind": "patient_specific",
+      "hit_at_6": false,
+      "reciprocal_rank": 0.0,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [],
+      "generation_status": "NOT_RUN",
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    "Article-level retrieval relevance is a preliminary label and should be confirmed by a pediatric literature reviewer.",
+    "Automated citation-ID checks do not establish that a cited passage substantively supports a claim.",
+    "This one-issue proof of concept is not clinically validated."
+  ]
+}

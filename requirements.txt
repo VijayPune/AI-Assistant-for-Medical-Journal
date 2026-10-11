@@ -1,0 +1,5 @@
+# Step 3 extraction and optional, explicitly gated Step 4 provider integration.
+pypdf==6.10.0
+openai==3.20.0
+streamlit==1.65.0
+fastembed==0.8.1

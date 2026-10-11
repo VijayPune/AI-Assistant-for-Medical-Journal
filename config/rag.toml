@@ -1,0 +1,30 @@
+[chunking]
+target_characters = 1400
+overlap_characters = 180
+
+[embedding]
+provider = "fastembed"
+model = "BAAI/bge-small-en-v1.5"
+batch_size = 32
+cache_directory = "data/models/fastembed"
+
+[generation]
+provider = "groq"
+model = "openai/gpt-oss-20b"
+max_output_tokens = 1200
+
+[retrieval]
+top_k = 6
+rrf_k = 60
+minimum_semantic_similarity = 0.615
+# Preliminary threshold calibrated only against this issue's first Golden Test Set.
+minimum_evidence_count = 1
+default_allowed_roles = ["clinical_evidence", "clinical_context", "secondary_source"]
+secondary_source_rank_multiplier = 0.75
+
+[safety]
+literature_assistant_only = true
+block_personalized_patient_advice = true
+require_citations = true
+allow_external_text_processing = false
+skip_pages_with_visual_review_flags = true

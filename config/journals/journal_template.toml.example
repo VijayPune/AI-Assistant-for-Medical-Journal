@@ -1,0 +1,23 @@
+# Copy this file, rename it for the journal, and replace every placeholder.
+journal_id = "replace_with_lowercase_id"
+display_name = "Replace with journal name"
+homepage_url = "https://example.org/"
+issues_url = "https://example.org/issues"
+article_index_url = "https://example.org/issue-page"
+
+[initial_corpus]
+title = "Replace with selected issue"
+issue_id = "replace_with_issue_id"
+publication_date = "YYYY-MM-DD"
+volume = 1
+issue_number = 1
+
+[access]
+# Keep pending until the journal's access terms and indexing permission are confirmed.
+review_status = "pending_confirmation"
+full_text_permission = "unconfirmed"
+
+[corpus]
+# Paths are relative to the Project folder. Preserve the common metadata schema.
+metadata_file = "data/metadata/article_metadata.csv"
+raw_files_directory = "data/raw/replace_with_issue_folder"

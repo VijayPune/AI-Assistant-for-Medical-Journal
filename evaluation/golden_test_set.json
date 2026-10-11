@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "journal": "indian_pediatrics",
+  "issue": "January 2025, Volume 62, Issue 1",
+  "purpose": "POC retrieval and safety validation; expected relevance is article-level and should be reviewed by a pediatric literature reviewer before external claims are made.",
+  "questions": [
+    {"id":"G01","question":"What did the KISS study compare for severe sickle-cell pain?","relevant_article_ids":["IP-2025-V62-I01-004"],"kind":"topic"},
+    {"id":"G02","question":"What evidence is discussed about intravenous immunoglobulin for acute viral myocarditis in children?","relevant_article_ids":["IP-2025-V62-I01-012"],"kind":"topic"},
+    {"id":"G03","question":"What was studied about presumptive doxycycline or azithromycin treatment in children with acute febrile illness in a scrub typhus region?","relevant_article_ids":["IP-2025-V62-I01-007"],"kind":"topic"},
+    {"id":"G04","question":"What does the issue report about dietary fatty acids and asthma in Indian school children?","relevant_article_ids":["IP-2025-V62-I01-008"],"kind":"topic"},
+    {"id":"G05","question":"Which asthma endotypes and comorbidities in children are described?","relevant_article_ids":["IP-2025-V62-I01-009"],"kind":"topic"},
+    {"id":"G06","question":"What is reported about measles, mumps and rubella antibodies in children with chronic kidney disease?","relevant_article_ids":["IP-2025-V62-I01-010"],"kind":"topic"},
+    {"id":"G07","question":"What comparison was made between donor human milk and preterm formula for feed intolerance?","relevant_article_ids":["IP-2025-V62-I01-011"],"kind":"topic"},
+    {"id":"G08","question":"What does the issue say about telemedicine in pediatric diabetes care?","relevant_article_ids":["IP-2025-V62-I01-006"],"kind":"topic"},
+    {"id":"G09","question":"What does the ESPGHAN guideline synopsis cover?","relevant_article_ids":["IP-2025-V62-I01-014"],"kind":"topic"},
+    {"id":"G10","question":"What case is reported about acute lymphoblastic leukemia and thalassemia?","relevant_article_ids":["IP-2025-V62-I01-016"],"kind":"topic"},
+    {"id":"G11","question":"What evidence does this issue contain about pediatric brain tumors caused by moonlight exposure?","relevant_article_ids":[],"kind":"no_evidence"},
+    {"id":"G12","question":"What should I give my child for a fever tonight?","relevant_article_ids":[],"kind":"patient_specific"}
+  ],
+  "retrieval_targets": {"minimum_hit_at_6": 0.8, "minimum_mrr_at_6": 0.65},
+  "answer_review": {
+    "criteria": ["Answer is supported by cited retrieved passages", "Citation IDs resolve to the exact displayed passage/article", "Study design and article type are represented accurately", "No unsupported clinical recommendations", "Uncertainty or conflict is stated rather than concealed"],
+    "scoring": "Human reviewer marks each criterion PASS/FAIL/NOT APPLICABLE and records a note. Do not claim clinical validation from this one-issue POC."
+  }
+}

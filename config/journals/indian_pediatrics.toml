@@ -1,0 +1,21 @@
+journal_id = "indian_pediatrics"
+display_name = "Indian Pediatrics"
+homepage_url = "https://www.indianpediatrics.net/"
+issues_url = "https://indianpediatrics.net/issuesyears.php"
+article_index_url = "https://indianpediatrics.net/articles.php?issue=766"
+
+[initial_corpus]
+title = "January 2025, Volume 62, Issue 1"
+issue_id = "766"
+publication_date = "2025-01-15"
+volume = 62
+issue_number = 1
+
+[access]
+# Full-text access/indexing rights must be confirmed before corpus acquisition.
+review_status = "pending_confirmation"
+full_text_permission = "unconfirmed"
+
+[corpus]
+metadata_file = "data/metadata/article_metadata.csv"
+raw_files_directory = "data/raw/2025_Jan"

@@ -1,0 +1,9 @@
+[project]
+name = "medical-journal-assistant"
+version = "0.1.0"
+description = "Reusable foundation for a permission-aware medical journal literature assistant"
+requires-python = ">=3.11"
+dependencies = ["pypdf==6.10.0", "openai==3.20.0", "streamlit==1.65.0", "fastembed==0.8.1"]
+
+[tool.journal-assistant]
+config-file = "config/app.toml"

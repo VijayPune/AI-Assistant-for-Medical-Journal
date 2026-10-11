@@ -1,0 +1,3 @@
+[application]
+name = "Medical Journal AI Assistant"
+default_journal_config = "config/journals/indian_pediatrics.toml"

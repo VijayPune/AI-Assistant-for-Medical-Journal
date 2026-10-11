@@ -1,0 +1,30 @@
+# Local Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local secrets and runtime state
+.env
+.env.*
+!.env.example
+*.log
+.state/
+
+# Local journal source and generated data (do not commit source PDFs by default)
+data/raw/**
+!data/raw/.gitkeep
+data/processed/**
+!data/processed/.gitkeep
+data/indexes/**
+!data/indexes/.gitkeep
+data/models/**
+!data/models/.gitkeep
+data/cache/**
+!data/cache/.gitkeep
+
+# Editors and operating system
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

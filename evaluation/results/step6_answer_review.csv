@@ -1,0 +1,3 @@
+﻿id,question,status,answer,retrieved_article_ids,human_review
+G01,What did the KISS study compare for severe sickle-cell pain?,answered,The KISS study compared intravenous ketorolac with intravenous morphine for the management of severe vaso‑occlusive crisis pain in children with sickle‑cell disease. [S1],IP-2025-V62-I01-004;IP-2025-V62-I01-002;IP-2025-V62-I01-012,PENDING
+G11,What evidence does this issue contain about pediatric brain tumors caused by moonlight exposure?,no_evidence_from_generation,"I could not find relevant supporting evidence in the indexed journal corpus. Try a more specific topic, author, or issue filter.",IP-2025-V62-I01-010;IP-2025-V62-I01-007;IP-2025-V62-I01-005;IP-2025-V62-I01-019,PENDING
